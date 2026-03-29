@@ -1,0 +1,83 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
+  <diagram name="Page-1" id="PXWZDmd8uMUOlZVROxkJ">
+    <mxGraphModel dx="1028" dy="595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1700" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hTKslnAHwbmX-42nTpOZ-1" value="" style="ellipse;fillColor=strokeColor;" vertex="1" parent="1">
+          <mxGeometry x="529" y="20" width="14" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="hTKslnAHwbmX-42nTpOZ-2" value="NoProgress" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="490" y="84" width="94" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hTKslnAHwbmX-42nTpOZ-3" value="Started" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="502" y="196" width="69" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hTKslnAHwbmX-42nTpOZ-4" value="InProgress" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="492" y="309" width="88" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hTKslnAHwbmX-42nTpOZ-5" value="LevelUp" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="361" y="421" width="73" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hTKslnAHwbmX-42nTpOZ-6" value="BadgeEarned" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="413" y="534" width="109" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hTKslnAHwbmX-42nTpOZ-7" value="Completed" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="639" y="421" width="94" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hTKslnAHwbmX-42nTpOZ-8" value="" style="ellipse;shape=endState;fillColor=strokeColor;" vertex="1" parent="1">
+          <mxGeometry x="678" y="547" width="14" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="hTKslnAHwbmX-42nTpOZ-9" value="" style="curved=1;startArrow=none;;exitX=0.53;exitY=1;entryX=0.49;entryY=0;rounded=0;" edge="1" parent="1" source="hTKslnAHwbmX-42nTpOZ-1" target="hTKslnAHwbmX-42nTpOZ-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hTKslnAHwbmX-42nTpOZ-10" value="User Begins Learning" style="curved=1;startArrow=none;;exitX=0.49;exitY=1;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="hTKslnAHwbmX-42nTpOZ-2" target="hTKslnAHwbmX-42nTpOZ-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hTKslnAHwbmX-42nTpOZ-11" value="User Completes Exercises" style="curved=1;startArrow=none;;exitX=0.5;exitY=1.01;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="hTKslnAHwbmX-42nTpOZ-3" target="hTKslnAHwbmX-42nTpOZ-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hTKslnAHwbmX-42nTpOZ-12" value="User Reaches New Level" style="curved=1;startArrow=none;;exitX=0;exitY=0.94;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="hTKslnAHwbmX-42nTpOZ-4" target="hTKslnAHwbmX-42nTpOZ-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="397" y="385" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hTKslnAHwbmX-42nTpOZ-13" value="Earn Badge" style="curved=1;startArrow=none;;exitX=0.5;exitY=1;entryX=0.27;entryY=-0.01;rounded=0;" edge="1" parent="1" source="hTKslnAHwbmX-42nTpOZ-5" target="hTKslnAHwbmX-42nTpOZ-6">
+          <mxGeometry x="0.1749" y="12" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="397" y="497" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hTKslnAHwbmX-42nTpOZ-14" value="Continue Learning" style="curved=1;startArrow=none;;exitX=0.72;exitY=-0.01;entryX=0.5;entryY=0.99;rounded=0;" edge="1" parent="1" source="hTKslnAHwbmX-42nTpOZ-6" target="hTKslnAHwbmX-42nTpOZ-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="536" y="497" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hTKslnAHwbmX-42nTpOZ-15" value="All Goals Achieved" style="curved=1;startArrow=none;;exitX=1;exitY=0.91;entryX=0.49;entryY=0;rounded=0;" edge="1" parent="1" source="hTKslnAHwbmX-42nTpOZ-4" target="hTKslnAHwbmX-42nTpOZ-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="685" y="385" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hTKslnAHwbmX-42nTpOZ-16" value="" style="curved=1;startArrow=none;;exitX=0.49;exitY=1;entryX=0.53;entryY=-0.03;rounded=0;" edge="1" parent="1" source="hTKslnAHwbmX-42nTpOZ-7" target="hTKslnAHwbmX-42nTpOZ-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
